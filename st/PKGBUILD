@@ -1,4 +1,4 @@
-# Maintainer: mar77i <mysatyre at gmail dot com>
+# Maintainer: Andrew Loreaux <andrew@andrewloreaux.com>
 # Past Maintainer: Gaetan Bisson <bisson@archlinux.org>
 # Contributor: Scytrin dai Kinthra <scytrin@gmail.com>
 
@@ -13,8 +13,6 @@ license=('MIT')
 depends=('libxft')
 makedepends=('ncurses' 'libxext' 'git')
 source=('git://git.suckless.org/st' 'http://st.suckless.org/patches/st-alpha-20160727-308bfbf.diff')
-#source=('git://git.suckless.org/st')
-#sha1sums=('SKIP')
 md5sums=('SKIP'
          '037bb7f2a354fd9e3c15b4aedd103165')
 provides=("${_pkgname}")
