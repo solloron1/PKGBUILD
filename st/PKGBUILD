@@ -3,7 +3,7 @@
 # Contributor: Scytrin dai Kinthra <scytrin@gmail.com>
 
 pkgname=st
-pkgver=20160805.2839d27
+pkgver=20160805.374fdea
 pkgrel=1
 pkgdesc='Simple virtual terminal emulator for X'
 url='http://git.suckless.org/st/'
@@ -39,7 +39,7 @@ prepare() {
   done
 
   sed \
-    -e '/char font/s/= .*/= "Inconsolata:pixelsize=16:antialias=true:autohint=true";/' \
+    -e '/char font/s/= .*/= "Hermit:pixelsize=12:antialias=true:autohint=true";/' \
     -e '/char worddelimiters/s/= .*/= " '"'"'`\\\"()[]{}<>|";/' \
     -e '/int alpha/s/= .*/= 0xb8;/' \
     -e '/int defaultfg/s/= .*/= 255;/' \
